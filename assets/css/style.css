@@ -1,0 +1,64 @@
+.header{
+    background: rgba(102, 235, 146, 0.3);
+    width: 20%;
+    text-align: center;
+    color: rgba(91, 81, 240, 0.9);
+    border-radius: 50%;
+    border: 2px solid rgba(10, 59, 26, 0.5);
+}
+body{
+    background-image: url("../images/Kitty_Background.jpg");
+}
+#text{
+    background: hsla(266, 91%, 37%, 0.5);
+    text-align: center;
+    color: hsla(228, 4%, 78%, 0.9);
+    width: 40%;
+    border-radius: 20%;
+    border: 2px solid hsla(266, 84%, 20%, 0.7);
+    margin-top: 2%;
+}
+#win-lose{
+    background: hsla(216, 98%, 55%, 0.3);
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    text-align: center;
+    border-radius: 20%;
+    border: 2px solid hsla(216, 86%, 22%, 0.5);
+}
+.numberGenerator{
+    background: hsla(216, 98%, 55%, 0.3);
+    width: 20%;
+    height: 20%;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    text-align: center;
+    border-radius: 20%;
+    border: 2px solid hsla(216, 86%, 22%, 0.5);
+}
+.container{
+    background: hsla(216, 98%, 55%, 0.3);
+    width: 30%;
+}
+.crystal1{
+    float: left;
+}
+.crystal2{
+    float: left;
+}
+.crystal3{
+    float: left;
+}
+.crystal4{
+    float: left;
+}
+.totalScore{
+    background: hsla(216, 98%, 55%, 0.3);
+    width: 20%;
+    height: 20%;
+    margin-top: 8%;
+    text-align: center;
+    border-radius: 20%;
+    border: 2px solid hsla(216, 86%, 22%, 0.5);
+}

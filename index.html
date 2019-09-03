@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../unit-4-game/assets/css/style.css"></link>
+    <title>Crystal Colletor!</title>
+</head>
+<body>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="../unit-4-game/assets/javascript/game.js"></script>
+    
+
+    <div class="header">
+    <p><h2>Kitten Collector</h2></p>
+    </div>
+
+    <div id="text">
+    <p>You will be given a random number at the start of the game.</p>
+    <p>There are four kittens below. By clicking on the kitten you will add a specific amount of points to your total score</p>
+    <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each kitten is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the values of each kitten.</p>
+    </div>
+
+    <div id="win-lose">
+        <p>Wins: </p>
+        <p id="win">0</p>
+        <p>Losses: </p>
+        <p id="lose">0</p>
+    </div>
+
+    <div class="numberGenerator">
+        <p>Random number of kittens: </p>
+        <p id="numberGen"></p>
+    </div>
+
+<div class="container">
+    <div class="crystal1">
+        <button id="crystal1"><img src="../unit-4-game/assets/images/Kitty_1.jpeg" alt="Kitty_1" width="60" height="60"></button>
+    </div>
+    <div class="crystal2">
+        <button id="crystal2"><img src="../unit-4-game/assets/images/Kitty_2.jpeg" alt="Kitty_2" width="60" height="60"></button>
+    </div>
+    <div class="crystal3">
+        <button id="crystal3"><img src="../unit-4-game/assets/images/Kitty_3.jpeg" alt="Kitty_3" width="60" height="60"></button>
+    </div>
+    <div class="crystal4">
+        <button id="crystal4"><img src="../unit-4-game/assets/images/Kitty_4.jpg" alt="Kitty_4" width="60" height="60"></button>
+    </div>
+</div>
+
+    <div class="totalScore">
+        <p>Your total score is: </p>
+        <p id="total">0</p>
+    </div>
+
+    <div class="adding-numbers"></div>
+
+</body>
+</html>
